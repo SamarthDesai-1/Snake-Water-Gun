@@ -5,14 +5,12 @@ import PlayerDisplay from './Components/PlayerDisplay';
 function App() {
 
   const [player, setPlayer] = useState("");
-  const [computer ,setComputer] = useState("");
+  const [computer, setComputer] = useState("");
 
   function playerChoice(choice) {
-    console.log("Player Choice : ", choice);
     setPlayer(choice);
   }
   function computerChoice(choice) {
-    console.log("Computer Choice : ", choice);
     setComputer(choice);
   }
 
